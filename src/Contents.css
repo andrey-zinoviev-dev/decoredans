@@ -1,0 +1,18 @@
+.contents {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.contents__sidebar {
+    align-self: stretch;
+    box-sizing: border-box;
+    padding: 0 25px;
+    background-color: #b7ceeb;
+    min-width: 320px;
+    border-radius: 0 9px 9px 0;
+}
+.contents__main {
+    width: 100%;
+}
